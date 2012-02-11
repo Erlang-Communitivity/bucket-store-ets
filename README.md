@@ -1,8 +1,9 @@
-README.md - bucket-store-ets
+= README.md - bucket-store-ets
 
 bucket-store-ets - An implementation of the bucket-store callbacks on top of an ETS backend
 
-Bucket-store callbacks:
+== Bucket-store callbacks
+
  * Standard gen_server callbacks, with handle_call({store, Bucket, Key, Doc})
  * Standard start_link/0 and start/0
  * store(Bucket, Key, Doc) - client function that calls the gen_server
