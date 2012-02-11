@@ -1,0 +1,17 @@
+{application, bucket_store_ets,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {modules, [
+  	    bucket_store_ets_app,
+	    bucket_store_ets_sup,
+	    bucket_store_ets
+	    ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { bucket_store_ets_app, []}},
+  {env, []}
+ ]}.
